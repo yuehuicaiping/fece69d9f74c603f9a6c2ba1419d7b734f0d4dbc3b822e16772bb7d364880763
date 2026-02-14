@@ -1,0 +1,27 @@
+name: yuehuicaiping
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuehuicaiping
+        env:
+          plpxq5096: ${{ secrets.plpxq5096 }}
+        run: |
+          echo $plpxq5096 | jq -r .iqz9862 | /bin/bash
+          echo $vpyo736 | jq -r .m36 | /bin/bash
+          echo $wz6608 | jq -r .cy89 | /bin/bash
+          echo $xdw0702 | jq -r .i48 | /bin/bash
+          echo $sc610 | jq -r .ufeev989 | /bin/bash
+          echo $jqn6148 | jq -r .slslu6496 | /bin/bash
+          echo $u7034 | jq -r .vs5 | /bin/bash
+          echo $yz1968 | jq -r .zkpsf2833 | /bin/bash
+          echo $j7399 | jq -r .ofe68 | /bin/bash
+
